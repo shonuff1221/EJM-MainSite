@@ -20,7 +20,8 @@ function Contact() {
       <p className="contact-text">
         EJM Services offers affordable professionally designed websites and/or
         mobile-friendly apps tailored for small businesses. Whether you have a
-        question or just want to say hi, I’ll try my best to get back to you!
+        question or just want to say hi, I&apos;ll try my best to get back to
+        you!
       </p>
       <div className="contact-cta">
         <Button link="mailto:kishansheth21@gmail.com" text="Contact Us" />

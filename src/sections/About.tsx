@@ -30,8 +30,8 @@ function About() {
           <p className="about-grid-info-text">
             Hello! My name is Stephan, and I am passionate about creating
             digital content for the web. My interest in web development was
-            sparked in 2013 when I created my first company called Comp Plus, a
-            Computer/mobile repair company.
+            sparked in 2013 when I created my first company called CompPlus LLC,
+            a Computer/mobile repair company.
           </p>
           <p className="about-grid-info-text">
             Fast-forward to today, I specialize in designing and developing
@@ -44,19 +44,15 @@ function About() {
 
           <p className="about-grid-info-text">
             Additionally, I share my knowledge and passion with the world
-            through my YouTube channel, where I demonstrate how to build
-            full-stack applications.
+            through my github page, where I demonstrate how to build full-stack
+            applications.
           </p>
           <p className="about-grid-info-text">
             I am also working on a new project called&nbsp;
-            <Link
-              className="link"
-              target="_blank"
-              href="https://frontendvita.com"
-            >
-              FrontendVita,
+            <Link className="link" target="_blank" href="">
+              No Tribe Crypto,
             </Link>
-            &nbsp;aimed at enhancing frontend development skills.
+            &nbsp;aimed at connecting gaming and blockchain technologies.
           </p>
           <p className="about-grid-info-text">
             Here are a few technologies I’ve been working with recently:

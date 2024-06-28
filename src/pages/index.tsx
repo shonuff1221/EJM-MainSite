@@ -10,6 +10,8 @@ import About from "@/sections/About";
 import Contact from "@/sections/Contact";
 import Projects from "@/sections/Projects";
 import Experience from "@/sections/Experience";
+import Services from "@/sections/Services";
+import Chatwoot from "@/components/chat";
 
 function Index() {
   const [isLoading, setIsLoading] = useState(true);
@@ -34,6 +36,7 @@ function Index() {
           <main>
             <Hero />
             <About />
+            <Services />
             <Experience />
             <Projects />
             <Contact />

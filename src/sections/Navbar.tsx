@@ -11,6 +11,7 @@ function Navbar() {
   const sectionLinks = [
     { name: "About", link: "/#about" },
     { name: "Experience", link: "/#experience" },
+    { name: "Our Services", link: "/#services" },
     { name: "Work", link: "/#work" },
     {
       name: "Contact",
@@ -20,9 +21,7 @@ function Navbar() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      window.pageYOffset > 100
-        ? setNavbarVisible(true)
-        : setNavbarVisible(false);
+      window.scrollY > 100 ? setNavbarVisible(true) : setNavbarVisible(false);
     });
   }, []);
 
@@ -62,7 +61,7 @@ function Navbar() {
             ease: "easeInOut",
           }}
         >
-          <Link href="ejm.services">
+          <Link href="/">
             <Logo />
           </Link>
         </motion.div>
@@ -123,7 +122,10 @@ function Navbar() {
               delay: 0.6,
             }}
           >
-            <Button text="Resume" link="http://localhost:3000/resume.pdf" />
+            <Button
+              text="Appointments"
+              link="https://cal.117aub.xyz/team/ejm-services/standard-appointment"
+            />
           </motion.div>
         </div>
       </div>
